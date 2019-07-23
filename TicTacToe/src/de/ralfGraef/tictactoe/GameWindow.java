@@ -6,9 +6,10 @@ import javax.swing.JFrame;
 @SuppressWarnings("serial")
 public class GameWindow extends JFrame {
 	
+	
 	public GameWindow(int width, int height){
 		
-		setTitle("TicTacToe by Ralf Gräf");
+		setTitle("TicTacToe by Ralf Gräf, oh yeah!");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setBounds(0, 0, width, height);
 		setLocationRelativeTo(null);
